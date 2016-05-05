@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity{
                 else if (position == 2){ //altitude
                     intent = new Intent(MainActivity.this, AltitudeActivity.class);
                 }
-                else{ //gps or some other function
-                    //intent = new Intent(MainActivity.this, GPSActivity.class);
+                else{ //gps
+                    intent = new Intent(MainActivity.this, GPSActivity.class);
                 }
                 startActivity(intent);
             }

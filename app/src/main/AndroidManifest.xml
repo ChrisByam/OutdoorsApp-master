@@ -3,6 +3,8 @@
     package="com.byam.chris.outdoorsapp">
 
     <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -41,6 +43,10 @@
         <activity
             android:name=".AltitudeActivity"
             android:label="@string/title_activity_altitude"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GPSActivity"
+            android:label="@string/title_activity_gps"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
