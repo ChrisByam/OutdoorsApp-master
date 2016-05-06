@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Outdoors App"
+        android:text="Survivor Kit"
         android:textColor="#C0C0C0"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"

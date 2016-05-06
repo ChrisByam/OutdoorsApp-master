@@ -19,7 +19,6 @@ import android.widget.TextView;
  */
 
 //use geomagnetic field sensor and accelerometer to report compass bearing
-//copied and pasted HRM code for now (going to be a little more complex)
 public class CompassActivity extends AppCompatActivity implements SensorEventListener {
 
     ImageView mPointer;
